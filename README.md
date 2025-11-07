@@ -1,19 +1,12 @@
-# :earth_americas: GDP dashboard template
+# Playtomic & Wellpass Matcher Deluxe
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Die Open-Source-Lösung für den automatisierten Abgleich von Playtomic-Buchungen und Wellpass-Logins.  
+**Features:** Datei-Upload, Spaltenzuordnung, Dublettenprüfung, Matching, Filter, Export, Teamwork.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Installation
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+git clone https://github.com/deinuser/playtomic-wellpass-matcher.git
+cd playtomic-wellpass-matcher
+pip install -r requirements.txt
+streamlit run app.py
